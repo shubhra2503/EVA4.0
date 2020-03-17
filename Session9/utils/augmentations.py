@@ -1,3 +1,4 @@
+# A common class to return any albumentation transform based on the dict passed.
 import numpy as np
 import albumentations as A
 from albumentations.pytorch import ToTensor
