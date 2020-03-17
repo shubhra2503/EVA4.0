@@ -29,7 +29,8 @@ class GradCam:
 	A GradCAM module which works with any PyTorch module.
         Arguments:
 		model: PyTorch model object
-		target_layer_names: names of the layer(s) in a list, according to the model.named_modules()	 
+		target_layer_names: names of the layer(s) in a list, according to the model.named_modules()
+	Upon calling this class, it prints the gradCAM visualisations if the corresponding argument is True, along with	return the visualisable ndarrays.
     '''
     def __init__(self, model, target_layer_names, use_cuda, weights_path=None):      
         self.all_fmaps = {}
