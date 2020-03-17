@@ -26,7 +26,7 @@ class Hook:
 
 class GradCam:
     ''' 
-	A GradCAM module which works with any PyTorch module.
+	A GradCAM module which works with any PyTorch model.
         Arguments:
 		model: PyTorch model object
 		target_layer_names: names of the layer(s) in a list, according to the model.named_modules()
