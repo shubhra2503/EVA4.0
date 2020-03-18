@@ -36,10 +36,13 @@ class GradCam:
         self.all_fmaps = {}
         self.all_grads = {}
         self.model = model
-        if weights_path is not None:
-            self.model.load_state_dict(torch.load(weights_path)['state_dict'])
         self.target_layers = target_layer_names
         self.cuda = use_cuda
+        if weights_path is not None:
+            if self.cuda:
+                self.model.load_state_dict(torch.load(weights_path)['state_dict'])
+            else:
+                self.model.load_state_dict(torch.load(weights_path, map_location=torch.device('cpu'))['state_dict'])
         if self.cuda:
             self.model = model.cuda()
         self._add_hooks()
