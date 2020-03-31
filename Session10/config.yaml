@@ -1,0 +1,20 @@
+training: !!bool "true"
+experiment_name: "gradcam_BS64"
+---
+data:
+    
+---   
+model:
+    snapshot_path: "/workspace/home/harv/Desktop/Session10/saves" 
+---
+train:
+    shuffle: !!bool "true"
+    loader_workers: 2
+    batch_size: 32
+    epochs: 50
+    lr: 0.001
+---
+val:
+    shuffle: !!bool "false"
+    loader_workers: 2
+    batch_size: 32    
