@@ -16,25 +16,15 @@ OpenCV Yolo: [SOURCE (https://pysource.com/2019/06/27/yolo-object-detection-usin
 
 #### Solution
 
-- [Github Directory](https://github.com/praveenraghuvanshi1512/EVA4/tree/Session-13/Session-13/Assignment-13/Assignment-13-1)
-
-- [Notebook - EVA-4-S13-A13-1-Praveen-raghuvanshi.ipynb](https://github.com/praveenraghuvanshi1512/EVA4/blob/Session-13/Session-13/Assignment-13/Assignment-13-1/EVA-4-S13-A13-1-Praveen-raghuvanshi.ipynb)
+- [Github Directory](https://github.com/HarshaVardhanMA/EVA4.0/tree/master/Session13/Part1)
 
 - Original Image
 
-  <img src=".\Assignment-13-1\praveen-cup.jpg" alt="Original Image - Praveen with Cup in hand" style="zoom:60%;" />
+  <img src="./Part1/bottle.jpeg" alt="Original Image - Bottle on a work desk" style="zoom:60%;" />
 
 - Objects Detected in Image
 
-  <img src=".\Assignment-13-1\praveen-cup-predicted.jpg" alt="Object Detected - Person and Cake" style="zoom:100%;" />
-
-- **Submission**
-
-  - Upload the link to GitHub implementation of this : https://github.com/praveenraghuvanshi1512/EVA4/blob/Session-13/Session-13/Assignment-13/Assignment-13-1/EVA-4-S13-A13-1-Praveen-raghuvanshi.ipynb
-
-  - Upload the annotated image by YOLO : https://github.com/praveenraghuvanshi1512/EVA4/blob/Session-13/Session-13/Assignment-13/Assignment-13-1/praveen-cup-predicted.png
-
-
+  <img src="./Part1/OutputImage.jpg" alt="Objects Detected - Bottle, Keyboard, Laptop, Monitor and a false detection of phone" style="zoom:100%;" />
 
 ### Assignment 13 - Part 2
 
@@ -56,6 +46,8 @@ Training Custom Dataset on Colab for YoloV3
 7. Share the link of your YouTube video on LinkedIn, Instagram, etc! You have no idea how much you'd love people complimenting you! 
 
 #### Solution
+
+[Github Directory](https://github.com/HarshaVardhanMA/EVA4.0/tree/master/Session13/Part2)
 
 - This assignment is done as a GROUP and has same submission by all team members. 
 
@@ -90,8 +82,8 @@ Training Custom Dataset on Colab for YoloV3
   
 - Resources
   - Dataset
-    - [Images](Assignment-13-2/dataset/fulldataset/images)
-    - [Labels](Assignment-13-2/dataset/fulldataset/labels)
+    - [Images](Part2/data/customdata/images)
+    - [Labels](Part2/data/customdata/labels)
     
   - Custom YoloV3 code repository
   
@@ -103,7 +95,7 @@ Training Custom Dataset on Colab for YoloV3
   
     [![RIP Gene Deitch | Yolov3 Object Detection | Tom Detector](http://img.youtube.com/vi/7_lH-jFB0Cg/0.jpg)](https://www.youtube.com/watch?v=7_lH-jFB0Cg)
   
-  - [Logs](Assignment-13-2/train.txt)
+  - [Logs](Part2/train.log)
   
   
   
