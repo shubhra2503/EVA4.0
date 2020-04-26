@@ -2,9 +2,9 @@
 
 **Team Members**
 
+- Harsha Vardhan (harshavardhan.ma@gmail.com)
 - Tusharkant Biswal (Tusharkanta_biswal@stragure.com) 
 - V N G Suman Kanukollu (sumankanukollu@gmail.com)
-- Harsha Vardhan (harshavardhan.ma@gmail.com)
 - Praveen Raghuvanshi (praveenraghuvanshi@gmail.com)
 
 ### Assignment 13 - Part 1
